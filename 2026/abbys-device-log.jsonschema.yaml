@@ -1,0 +1,13 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Device-log event entry
+type: object
+required: [date, kind]
+additionalProperties: false
+properties:
+    date:
+        type: date
+    kind:
+        enum: [setting-change, app-install, app-remove, os-update, hardware, access]
+    reverts:
+        type: string
+        description: path of an earlier entry this event undoes

@@ -1,0 +1,20 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Termux install attempt log entry
+type: object
+required: [date, outcome, reached]
+additionalProperties: false
+properties:
+    date:
+        type: date
+    outcome:
+        enum: [success, partial, blocked, abandoned]
+        description: >-
+            success = all steps green through 07; partial = some
+            verification steps green, stopped short; blocked = a
+            troubleshooting playbook exhausted; abandoned = time-boxed
+            out or preempted.
+    reached:
+        type: string
+        description: filename of the last steps.kb entry completed successfully
+    duration-minutes:
+        type: integer
