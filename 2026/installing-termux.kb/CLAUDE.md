@@ -27,7 +27,9 @@ evening per attempt (stop-loss rationale:
 
 She may be using it while you're driving this remotely. Plain `adb shell`
 commands (`getprop`, `settings`, `dumpsys`) are safe at any time -- they
-don't touch the foreground. Anything that changes what's on screen
+don't touch the foreground, and so is `ssh -p 8022 u0_a344@...` (key-auth
+configured, see `../abbys-device-log.kb/2026-07-07-ssh-authorized-key-added.md`)
+-- both run headless, off-screen. Anything that changes what's on screen
 (`am start`, blind `input text`/`keyevent` injection, `install`
 triggering a system dialog) will interrupt her mid-use. Check she's not
 actively on the device before any such command; if she is, wait.

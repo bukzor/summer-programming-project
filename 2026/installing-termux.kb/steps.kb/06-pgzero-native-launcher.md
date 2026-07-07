@@ -20,9 +20,10 @@ CLI works as documented, no marker-comment/`pgzrun.go()` workaround
            box.x = (box.x + 2) % WIDTH
        EOF
 
-2. Run it:
+2. Run it, using the venv from `02-bootstrap-termux.md` step 4 (not a
+   bare system-wide `pgzrun`):
 
-       DISPLAY=:0 pgzrun ~/pz.py
+       DISPLAY=:0 /data/data/com.termux/files/home/pgzero-project/.venv/bin/pgzrun ~/pz.py
 
 **Success:** the window renders and animates, launched by the unmodified
 CLI on an unmodified script.

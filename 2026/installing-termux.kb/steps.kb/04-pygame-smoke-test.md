@@ -24,9 +24,10 @@
        pygame.quit()
        EOF
 
-2. Run it:
+2. Run it, using the venv from `02-bootstrap-termux.md` step 4 (not the
+   bare system `python`):
 
-       DISPLAY=:0 python ~/smoke.py
+       DISPLAY=:0 /data/data/com.termux/files/home/pgzero-project/.venv/bin/python ~/smoke.py
 
 **Success:** a window appears in Termux:X11, the rectangle sweeps smoothly,
 exit prints fps near 60, no segfault.
