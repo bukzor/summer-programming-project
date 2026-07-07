@@ -23,3 +23,11 @@ entries it produced.
 
 Write the entry when the change is made, not at session end. If a later
 event reverts an earlier one, write a new entry; don't edit the old one.
+
+When the change was made by running commands (adb shell, etc.), pair
+`$SLUG.md` with a same-named `$SLUG.sh`: the exact commands, reiterable
+standalone (a future agent/session can re-run it verbatim to reproduce or
+re-apply the change). The `.md` stays the narrative -- what changed, why,
+how to verify/revert; the `.sh` is the mechanism. Skip the `.sh` when the
+change wasn't command-driven (a manual Settings-app toggle, a physical
+pairing step).

@@ -17,11 +17,21 @@ one updates, update the other (see
        adb install ~/Downloads/com.termux_*.apk
        adb install ~/Downloads/app-*-debug.apk
 
+   `INSTALL_FAILED_VERIFICATION_FAILURE` ->
+   `../troubleshooting.kb/install-failed-verification-failure.md`.
+
 3. Record both exact filenames/versions in the `../runs.kb/` entry, and
    log the installs as a `../../abbys-device-log.kb/` entry
    (kind: app-install).
 
-4. Now do the battery-optimization exemption deferred from step 00.
+4. Now do the battery-optimization exemption deferred from step 00 --
+   over adb, no on-device navigation needed:
+
+       adb shell "dumpsys deviceidle whitelist +com.termux"
+       adb shell "dumpsys deviceidle whitelist +com.termux.x11"
+
+   Verify: `adb shell dumpsys deviceidle whitelist | grep termux` lists
+   both.
 
 **Success:** `adb shell pm list packages | grep termux` lists both
 `com.termux` and `com.termux.x11`.

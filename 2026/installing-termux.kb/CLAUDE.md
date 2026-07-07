@@ -23,6 +23,15 @@ evening per attempt (stop-loss rationale:
 - `runs.kb/` -- one immutable file per attempt: versions, step reached,
   outcome, deviations. Schema: `runs.jsonschema.yaml`.
 
+## Operating note: the tablet is Abby's, not a lab device
+
+She may be using it while you're driving this remotely. Plain `adb shell`
+commands (`getprop`, `settings`, `dumpsys`) are safe at any time -- they
+don't touch the foreground. Anything that changes what's on screen
+(`am start`, blind `input text`/`keyevent` injection, `install`
+triggering a system dialog) will interrupt her mid-use. Check she's not
+actively on the device before any such command; if she is, wait.
+
 ## Maintenance
 
 - The steps are the living document; runs are history. When a run deviates
