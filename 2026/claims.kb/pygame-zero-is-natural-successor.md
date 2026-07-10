@@ -3,7 +3,7 @@ status: asserted
 likelihood: 0.8
 sources:
     - ../sources.kb/claude.md
-tags: [tools, python, pygame-zero]
+tags: [tools, python, pygame-zero, dormant]
 ---
 
 Pygame Zero (`pgzero`) — a thin, education-focused wrapper around Pygame —
@@ -15,3 +15,7 @@ code) so the very first program can already move a sprite around a window
 with keyboard input — structurally close to what "make a Scratch game"
 felt like, but now in real Python syntax with real files, real functions,
 real syntax errors to debug.
+
+Parked, not current: the sibling project runs pyxel, not pgzero — see
+`pyxel-is-natural-successor.md`. Everything above is still true about
+Pygame Zero itself; kept for the tablet-pivot contingency, not as history.

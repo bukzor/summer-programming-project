@@ -2,6 +2,7 @@
 resolved: ../claims.kb/resolved-next-tool-trial.md
 candidate-resolutions:
     - ../claims.kb/recommended-next-tool-pygame-zero.md
+    - ../claims.kb/recommended-next-tool-pyxel.md
     - ../claims.kb/abby-prefers-staying-on-scratch.md
 sources:
     - ../sources.kb/buck.md

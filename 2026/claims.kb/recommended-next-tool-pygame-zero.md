@@ -6,10 +6,12 @@ sources:
 depends:
     - ../deductions.kb/why-pygame-zero.md
     - ../claims.kb/abby-prefers-staying-on-scratch.md
-tags: [recommendation]
+tags: [recommendation, dormant]
 ---
 
-Python + Pygame Zero should be the default choice for the summer project,
-with p5.js held in reserve as the fallback if she turns out to strongly
-prefer working in a browser over installing a local Python setup (a
-question to settle in session zero, not to guess at now).
+Parked, not current: `recommended-next-tool-pyxel.md` is the live
+recommendation. Kept because it isn't dead — if hardware ever reverts to
+the Android tablet, Pydroid has no pyxel wheel
+(`pyxel-pivot-risks-pydroid-incompatibility.md`), which would force this
+recommendation back into play. p5.js remains the fallback either way if she
+strongly prefers a browser over installing a local Python setup.

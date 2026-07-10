@@ -27,4 +27,4 @@ abbys-device-log.kb/  → dated durable state changes to the tablet (settings, i
 Scratch already taught her the hard conceptual part (events, loops, conditionals,
 variables) — the summer project should spend its budget on a text-syntax transition
 tool that keeps the same "make a game, see it move" feedback loop, not on generic
-exercises. See `deductions.kb/why-pygame-zero.md` and `deductions.kb/why-session-zero.md`.
+exercises. See `deductions.kb/why-pyxel.md` and `deductions.kb/why-session-zero.md`.

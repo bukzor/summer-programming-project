@@ -9,7 +9,7 @@ premises:
     - ../claims.kb/p5js-is-viable-alternative.md
 sources:
     - ../sources.kb/claude.md
-tags: [tools]
+tags: [tools, dormant]
 ---
 
 She already has the concepts (scratch-builds-concepts-not-syntax); what she
@@ -29,3 +29,7 @@ thing" nontrivial in a way it wouldn't be on a normal computer — see
 `why-pydroid-first.md` for how that's resolved. p5.js/Trinket remains the
 correct fallback, not a worse option, if the native-app route proves
 unreliable on this specific device.
+
+Parked, not current: `why-pyxel.md` carries the live argument. Kept only
+for the tablet-pivot contingency — see
+`recommended-next-tool-pygame-zero.md`.
