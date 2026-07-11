@@ -6,7 +6,7 @@ premises:
     - ../claims.kb/termux-x11-has-recurring-unresolved-bugs.md
     - ../claims.kb/termux-practical-risk-estimate.md
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 tags: [environment]
 ---
 

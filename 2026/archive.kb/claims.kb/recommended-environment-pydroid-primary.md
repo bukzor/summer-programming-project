@@ -2,7 +2,7 @@
 status: asserted
 likelihood: 0.75
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 depends:
     - ../deductions.kb/why-pydroid-first.md
     - ../claims.kb/pydroid-ads-fire-after-every-run.md
@@ -18,3 +18,7 @@ a working setup at all). Known, bounded annoyance beats unknown, unbounded
 setup risk when the thing being gated is Abby's actual first session.
 Termux remains worth trying separately, on Buck's own time, decoupled
 from the project's start date.
+
+Superseded 2026-07-09: `../../questions.kb/session-hardware.md` resolved to
+the Chromebook/Crostini, not the tablet, mooting this whole Pydroid-vs-
+Termux tradeoff. See `../../claims.kb/recommended-environment-crostini-primary.md`.

@@ -3,12 +3,12 @@ status: asserted
 kind: entailment
 conclusion: ../claims.kb/recommended-next-tool-pygame-zero.md
 premises:
-    - ../claims.kb/scratch-builds-concepts-not-syntax.md
-    - ../claims.kb/visual-feedback-sustains-motivation.md
+    - ../../claims.kb/scratch-builds-concepts-not-syntax.md
+    - ../../claims.kb/visual-feedback-sustains-motivation.md
     - ../claims.kb/pygame-zero-is-natural-successor.md
-    - ../claims.kb/p5js-is-viable-alternative.md
+    - ../../claims.kb/p5js-is-viable-alternative.md
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 tags: [tools, dormant]
 ---
 
@@ -25,7 +25,8 @@ Correction: this originally assumed "install a thing" meant a laptop.
 Her actual dedicated hardware is an Android tablet
 (`../claims.kb/hardware-is-android-tablet.md`), which makes "install a
 thing" nontrivial in a way it wouldn't be on a normal computer — see
-`../claims.kb/pydroid3-viable-python-pygame-env.md` and
+`../claims.kb/pydroid3-viable-python-pygame-env.md`
+(sibling within this archive) and
 `why-pydroid-first.md` for how that's resolved. p5.js/Trinket remains the
 correct fallback, not a worse option, if the native-app route proves
 unreliable on this specific device.

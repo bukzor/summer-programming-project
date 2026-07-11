@@ -8,7 +8,7 @@ premises:
     - ../claims.kb/physical-keyboard-input-unverified.md
     - ../claims.kb/trinket-pygame-zero-fallback.md
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 tags: [environment]
 ---
 

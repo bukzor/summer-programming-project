@@ -2,10 +2,10 @@
 status: contested
 likelihood: 0.8
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 depends:
     - ../deductions.kb/why-pygame-zero.md
-    - ../claims.kb/abby-prefers-staying-on-scratch.md
+    - ../../claims.kb/abby-prefers-staying-on-scratch.md
 tags: [recommendation, dormant]
 ---
 

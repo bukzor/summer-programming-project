@@ -2,7 +2,7 @@
 status: asserted
 likelihood: 0.6
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 depends:
     - ../claims.kb/termux-x11-has-recurring-unresolved-bugs.md
 tags: [environment, risk, estimate]

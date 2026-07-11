@@ -1,8 +1,8 @@
 ---
-status: asserted
-likelihood: 1.0
+status: contested
+likelihood: 0.5
 sources:
-    - ../sources.kb/buck.md
+    - ../../sources.kb/buck.md
     - ../sources.kb/lenovo-idea-tab-plus-specs.md
 tags: [environment, hardware]
 ---
@@ -14,3 +14,9 @@ Abby's dedicated hardware is a Lenovo Idea Tab Plus / Tab K12 (ZAG70921US)
 external keyboard, and trackpad already available. Plenty of horsepower
 for Python + pygame; the open question is software compatibility (Android
 vs. desktop Python tooling), not performance.
+
+Superseded 2026-07-09 (Buck): `session-hardware.md` resolved to the
+Chromebook/Crostini instead. Everything in this claim about the tablet's
+specs remains true as a fact about the device Abby owns — it's just not
+where sessions run, so the Pydroid/Termux/keyboard-passthrough concerns
+downstream of it are moot for session planning.

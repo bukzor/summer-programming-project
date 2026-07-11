@@ -2,7 +2,7 @@
 status: contested
 likelihood: 0.5
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 depends:
     - ../deductions.kb/why-termux-over-pydroid.md
     - ../claims.kb/termux-practical-risk-estimate.md

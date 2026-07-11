@@ -2,7 +2,7 @@
 status: asserted
 likelihood: 0.8
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 tags: [tools, python, pygame-zero, dormant]
 ---
 

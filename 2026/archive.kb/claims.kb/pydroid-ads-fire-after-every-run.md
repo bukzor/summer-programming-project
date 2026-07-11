@@ -2,9 +2,9 @@
 status: asserted
 likelihood: 0.85
 sources:
-    - ../sources.kb/claude.md
+    - ../../sources.kb/claude.md
 depends:
-    - ../claims.kb/visual-feedback-sustains-motivation.md
+    - ../../claims.kb/visual-feedback-sustains-motivation.md
 tags: [environment, risk]
 ---
 
@@ -20,7 +20,7 @@ assumed. Two separate, concrete findings:
    concrete: an ad after every run directly breaks the tight edit-run
    feedback loop that's the entire reason pygame beat plain-Python-with-
    print-statements in the first place
-   (`../claims.kb/visual-feedback-sustains-motivation.md`). For a kid
+   (`../../claims.kb/visual-feedback-sustains-motivation.md`). For a kid
    iterating fast, that's not a minor annoyance, it's friction on the
    exact mechanic the tool was chosen to preserve.
 2. **Removing ads is no longer a simple one-time ~$10 purchase.** An

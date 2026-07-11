@@ -18,8 +18,7 @@ claims.kb/       → beliefs about her, about kids this age, about tools
 deductions.kb/   → why the claims add up to a recommendation
 sources.kb/      → who asserted what (parent vs. assistant general knowledge)
 definitions.kb/  → terms like "session zero"
-installing-termux.kb/ → runbook (steps, troubleshooting, run log) for the Termux side-experiment; uses Skill(llm-kb), see its CLAUDE.md
-abbys-device-log.kb/  → dated durable state changes to the tablet (settings, installs, access); uses Skill(llm-kb)
+archive.kb/       → parked Android/Pydroid/Termux track (claims, deductions, sources, the installing-termux.kb runbook, abbys-device-log.kb) — superseded by the Chromebook/Crostini pick, kept for a possible pivot back, out of the way of daily work
 ```
 
 ## Key Insight

@@ -15,7 +15,7 @@ Pyxel doesn't carry Pygame Zero's specific credentials: no equivalent
 "Code Club sequences this directly after Scratch" pedigree, and
 `pyxel.init()` / `pyxel.run(update, draw)` are more explicit boilerplate
 than pgzero's zero-import, auto-detected `draw`/`update`. So
-`pygame-zero-is-natural-successor.md`'s argument doesn't transfer to pyxel
+`../archive.kb/claims.kb/pygame-zero-is-natural-successor.md`'s argument doesn't transfer to pyxel
 as literally written — it's weaker or false on two of its three legs.
 
 What holds up instead is a different argument, already load-bearing in this
