@@ -4,7 +4,9 @@ why:
   - ../020-goals.kb/stop-while-its-still-fun.md
 ---
 
-Eight fixed sessions (0–7) carry the core arc in strict order — each
+Eight numbered sessions (0–7), nine sittings once session 2's 2a/2b split
+(`../../discourse.kb/questions.kb/should-session-2-split-into-2a-2b.md`) is
+counted — carry the core arc in strict order — each
 introduces exactly what the next needs and no more. Past session 7, the
 model inverts: an open expansion menu (`../070-future-work.kb/`) that Abby
 picks from, plus a pull-based `ideas.md` backlog for anything she asks for
