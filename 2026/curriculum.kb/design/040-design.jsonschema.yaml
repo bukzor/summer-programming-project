@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Major abstractions and their relationships — how requirements get
+  satisfied. Outcomes, not decision journeys (those belong in
+  ../../discourse.kb/ or an ADR).
+type: object
+additionalProperties: false
+properties:
+  why:
+    description: Paths to the requirement entries this design satisfies.
+    type: array
+    items:
+      type: string
+  tags:
+    description: Topic tags for cross-referencing.
+    type: array
+    items:
+      type: string

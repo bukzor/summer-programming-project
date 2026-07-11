@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Aspirational, stable-over-project-lifetime principles for how we
+  accomplish the mission. At Abby's Craft these are the non-negotiable
+  ground rules.
+type: object
+additionalProperties: false
+properties:
+  why:
+    description: Paths to the mission entries this goal serves.
+    type: array
+    items:
+      type: string
+  tags:
+    description: Topic tags for cross-referencing.
+    type: array
+    items:
+      type: string

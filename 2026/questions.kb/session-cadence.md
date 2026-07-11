@@ -1,4 +1,5 @@
 ---
+resolved: ../claims.kb/recommended-cadence.md
 candidate-resolutions:
     - ../claims.kb/recommended-cadence.md
 sources:

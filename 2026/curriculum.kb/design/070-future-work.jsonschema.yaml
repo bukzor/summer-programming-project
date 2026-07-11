@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Good ideas deferred past the core arc — Abby's expansion menu. Not part
+  of the why/how chain (nothing above requires these; they're picked, not
+  derived), so no why[].
+type: object
+additionalProperties: false
+required:
+  - difficulty
+properties:
+  difficulty:
+    type: string
+    enum: [easy, easy-medium, medium, hard]
+  concepts:
+    description: New Python/pyxel concepts this idea would teach.
+    type: array
+    items:
+      type: string
+  tags:
+    type: array
+    items:
+      type: string

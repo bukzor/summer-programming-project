@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  Verifiable statements that validate the goals are being achieved.
+type: object
+additionalProperties: false
+properties:
+  why:
+    description: Paths to the goal entries this requirement validates.
+    type: array
+    items:
+      type: string
+  tags:
+    description: Topic tags for cross-referencing.
+    type: array
+    items:
+      type: string

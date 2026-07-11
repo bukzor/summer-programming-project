@@ -10,7 +10,13 @@ tags: [session-zero, motivation]
 ---
 
 Abby agreed to try Python/Pygame Zero for a session or two, but
-"reluctantly" — this is compliance, not intrinsic buy-in. That makes
+"reluctantly" — this is compliance, not intrinsic buy-in. Note: consent
+was for pgzero specifically; the engine pivoted to pyxel afterward
+(`../sources.kb/scratch-pygame-zero-repo.md`) without re-asking her.
+Session 0's tool-reveal step
+(`../curriculum.kb/design/060-deliverables.kb/session-00-make-the-window-yours.md`)
+is where this gets implicitly re-confirmed — treat her reaction there as
+real signal, not a formality. That makes
 `kids-need-early-win.md` load-bearing in a way it wasn't for a kid who
 switched tools eagerly: if the very first Python session doesn't produce
 something satisfying fast, reluctant consent has nothing to convert it

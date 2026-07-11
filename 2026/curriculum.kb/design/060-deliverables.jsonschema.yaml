@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: "http://json-schema.org/draft-07/schema#"
+description: >
+  How to build the components — at Abby's Craft, one entry per session
+  (plus project bootstrap): goal, build steps, concepts named, done-when.
+type: object
+additionalProperties: false
+properties:
+  why:
+    description: Paths to the component entries this deliverable builds.
+    type: array
+    items:
+      type: string
+  status:
+    description: Where this session stands.
+    type: string
+    enum: [not-started, done]
+    default: not-started
+  tags:
+    description: Topic tags for cross-referencing.
+    type: array
+    items:
+      type: string
