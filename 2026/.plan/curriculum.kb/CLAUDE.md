@@ -11,7 +11,9 @@ build-out of `../claims.kb/resolved-next-tool-trial.md`. Originally planned
 as a sibling `scratch.pygame-zero` repo (see
 `../sources.kb/scratch-pygame-zero-repo.md`); that repo was never actually
 created, and 2026-07-11 the user settled it for good: one repo, this one —
-`main.py` at root, sessions separated by `session/NN/` subpath (see
+the game at kid-facing `projects/abbys-craft/main.py`, adult-facing
+material (including this tree) dot-hidden under `.plan/` since 2026-07-12,
+sessions separated by `session/NN/` subpath beside this tree (see
 `technical-policy.kb/repo-layout.md`). Distilled from the original
 `CURRICULUM.md` draft (an early, since-abandoned prose version — not
 recoverable from any repo history, since the code repo it would have lived

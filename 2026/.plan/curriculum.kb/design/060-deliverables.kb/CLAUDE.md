@@ -1,6 +1,7 @@
 One entry per session, plus non-session procedural entries (one-time setup
 in `project-bootstrap.md`, the standing adult/Claude protocol in
-`session-facilitation-protocol.md`). Each session entry states Goal / Build /
+`session-facilitation-protocol.md`, the adult's dry-run ritual in
+`pre-session-rehearsal.md`). Each session entry states Goal / Build /
 Concepts / Done-when / deliberate bug / pitfall — the day-of reference,
 distilled from the original curriculum draft's "Core arc" (superseded, see
 git history). If a session's Build

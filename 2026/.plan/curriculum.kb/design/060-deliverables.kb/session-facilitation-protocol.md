@@ -16,6 +16,10 @@ in yourself: writing too much code, explaining too much, adding structure
 (classes, modules, abstractions) `../../technical-policy.kb/single-file-no-abstractions.md`
 forbids, and racing ahead of Abby's typing.
 
+**Before each session:** the adult rehearses it as Abby —
+`pre-session-rehearsal.md`; the rehearsal's output is that session's
+checkpoint.
+
 **At the start of each session (after 0):** she runs the current `main.py`,
 reads last session's commit message aloud, and narrates one thing the code
 does. Two minutes, not a review — just re-entry. Then check whether this
@@ -40,7 +44,8 @@ predicted, not surprises. Celebrate every run, including failed ones that
 produce a readable traceback.
 
 **After each session:** confirm `main.py` runs, help her commit (she dictates
-the message), fold anything she asked for into `ideas.md`, and
-append one line to `sessions.log` — date, what shipped, what
+the message; keep it bland about `.plan/` — `git log` is in her sight-line),
+fold anything she asked for into `../../../../ideas.md` (repo root, hers), and
+append one line to `../../../sessions.log` — date, what shipped, what
 sparked joy, what dragged. That log is the input for pacing decisions (see
 `../040-design.kb/session-arc-and-pacing-design.md`).
