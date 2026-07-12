@@ -19,8 +19,8 @@ here rather than deleted, per
 one thing" still suffices to reorient at this tighter cadence; if a gap
 exceeds a week, spend extra ritual time narrating more than one prior
 thing before starting new material.
-The code repo's `sessions.log` (per the old operating manual) feeds pacing
-decisions and gets its baseline from session 0.
+`sessions.log` (per the old operating manual) feeds pacing decisions and
+gets its baseline from session 0.
 
 <details><summary>Original 2026-07-09 resolution (superseded)</summary>
 

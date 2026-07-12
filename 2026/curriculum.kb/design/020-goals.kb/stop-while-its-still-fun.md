@@ -4,5 +4,5 @@ why:
 ---
 
 45–60 minutes per session. Ending mid-idea is fine — write the idea in
-the code repo's `ideas.md` (her feature backlog) and let her pick from it later.
+`ideas.md` (her feature backlog) and let her pick from it later.
 Never trade a fun ending for a complete one.

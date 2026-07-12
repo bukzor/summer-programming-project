@@ -40,7 +40,7 @@ predicted, not surprises. Celebrate every run, including failed ones that
 produce a readable traceback.
 
 **After each session:** confirm `main.py` runs, help her commit (she dictates
-the message), fold anything she asked for into the code repo's `ideas.md`, and
-append one line to its `sessions.log` — date, what shipped, what
+the message), fold anything she asked for into `ideas.md`, and
+append one line to `sessions.log` — date, what shipped, what
 sparked joy, what dragged. That log is the input for pacing decisions (see
 `../040-design.kb/session-arc-and-pacing-design.md`).

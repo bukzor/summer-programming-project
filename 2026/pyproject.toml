@@ -1,0 +1,8 @@
+[project]
+name = "abbys-craft"
+version = "0.1.0"
+description = "Abby's Craft — a Minecraft-like built with Abby, session by session"
+requires-python = ">=3.13"
+dependencies = [
+    "pyxel>=2.9.7",
+]
